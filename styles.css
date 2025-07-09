@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #111;
+}
+
+.navbar .logo a {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .profile a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('netflix_background.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner-content button {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.banner-content button:hover {
+    background-color: #f40612;
+}
+
+.movie-section {
+    margin: 20px 0;
+}
+
+.movie-section h2 {
+    font-size: 1.8em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.movie-list {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.movie-card {
+    background-color: #333;
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.footer p {
+    font-size: 1em;
+}
